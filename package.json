@@ -19,7 +19,8 @@
 		"inspire": "node index.js",
 		"test": "mocha test.js",
 		"git-publish": "git add -A .; git commit -m \"Publishing\"; git push;",
-		"git-tag": "echo \"Tag Version?: \"; read VERSION; git tag -a \"v${VERSION}\" -m \"Version ${VERSION}\";"
+		"git-tag": "echo \"Tag Version?: \"; read VERSION; git tag -a \"v${VERSION}\" -m \"Version ${VERSION}\";",
+		"git-push-tags": "git push --tags"
 	},
 	"main": "index.js",
 	"repository": {
