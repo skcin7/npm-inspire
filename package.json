@@ -1,12 +1,12 @@
 {
-	"name": "inspire",
+	"name": "@skcin7/npm-inspire",
 	"description": "A simple package to print inspirational messages to the console.",
 	"version": "1.0.0",
 	"config": {
 		"version_short": "1.0"
 	},
 	"keywords": [
-		"inspirational-quotes",
+		"inspirational",
 		"inspire",
 		"quotes"
 	],
@@ -23,7 +23,7 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/skcin7/npm-inspire"
+		"url": "https://github.com/skcin7/npm-inspire.git"
 	},
 	"bugs": {
 		"url": "https://github.com/skcin7/npm-inspire/issues"

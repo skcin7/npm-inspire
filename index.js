@@ -51,12 +51,18 @@ const printQuote = () => {
     console.log(random_quote.quote);
     console.log(" -- " + random_quote.author);
     console.log("");
+    return true;
 }
 printQuote();
 
+// export {
+//     printQuote
+// }
 
+exports.printQuote = printQuote;
 
 // exports.printMsg = function() {
+//     printQuote();
 //     console.log("Hello World!");
 //     return "Hello World!";
 // }
