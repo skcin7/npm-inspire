@@ -1,5 +1,5 @@
 {
-	"name": "@skcin7/npm-inspire",
+	"name": "@skcin7/inspire",
 	"description": "A simple package to print inspirational messages to the console.",
 	"version": "1.0.0",
 	"config": {
@@ -18,7 +18,8 @@
 	"scripts": {
 		"inspire": "node index.js",
 		"test": "mocha test.js",
-		"git-publish": "git add -A .; git commit -m \"Publishing\"; git push;"
+		"git-publish": "git add -A .; git commit -m \"Publishing\"; git push;",
+		"git-tag": "echo \"Tag Version?: \"; read VERSION; git tag -a \"v${VERSION}\" -m \"Version ${VERSION}\";"
 	},
 	"main": "index.js",
 	"repository": {
@@ -32,11 +33,5 @@
 	"devDependencies": {
 		"chai": "^4.3.6",
 		"mocha": "^10.0.0"
-	},
-	"jspm": {
-		"registry": "npm",
-		"main": "src/index.js",
-		"dependencies": {},
-		"peerDependencies": {}
 	}
 }
