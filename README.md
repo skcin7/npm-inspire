@@ -1,10 +1,12 @@
 # @skcin7/inspire
 A simple Node.js package that inspires you by printing an inspirational message.
 
-## Installation
-Install via NPM:
+Works both as a Node.js binary (prints the message in your terminal), or as a piece that can be imported and used into your JavaScript and/or TypeScript applications.
 
-```bash
+## Installation
+To install it, you should use NPM:
+
+```shell
 npm i @skcin7/inspire --save-dev
 ```
 
@@ -12,7 +14,7 @@ npm i @skcin7/inspire --save-dev
 Once the package is installed, you have various ways in which you may use it.
 
 #### Node.js:
-```node
+```shell
 inspire
 ```
 
@@ -27,6 +29,9 @@ inspire.printQuote(); // Prints the inspirational quote to your console.
 import * as inspire from '@skcin7/inspire';
 inspire.printQuote(); // Prints the inspirational quote to your console.
 ```
+
+## Bugs/Issues
+If you notice any, please report them here: [https://github.com/skcin7/npm-inspire/issues](https://github.com/skcin7/npm-inspire/issues).
 
 ## License
 This project is licensed under the terms of the [MIT license](/LICENSE).
