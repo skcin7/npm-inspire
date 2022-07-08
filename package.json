@@ -16,12 +16,11 @@
 		"Nick Morgan"
 	],
 	"scripts": {
-		"test": "test",
-		"publish": "echo 'Publishing...';",
+		"inspire": "node index.js",
+		"test": "mocha test.js",
 		"git-publish": "git add -A .; git commit -m \"Publishing\"; git push;"
 	},
-	"main": "src/index.js",
-	"module": "src/index.esm.js",
+	"main": "index.js",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/skcin7/npm-inspire"
@@ -30,7 +29,10 @@
 		"url": "https://github.com/skcin7/npm-inspire/issues"
 	},
 	"license": "MIT",
-	"devDependencies": {},
+	"devDependencies": {
+		"chai": "^4.3.6",
+		"mocha": "^10.0.0"
+	},
 	"jspm": {
 		"registry": "npm",
 		"main": "src/index.js",
