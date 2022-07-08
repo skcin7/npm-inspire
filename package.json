@@ -1,7 +1,7 @@
 {
 	"name": "@skcin7/inspire",
 	"description": "A simple package to print inspirational messages to the console.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"config": {
 		"version_short": "1.0"
 	},
@@ -20,7 +20,8 @@
 		"test": "mocha test.js",
 		"git-publish": "echo \"Commit Message?: \"; read COMMIT_MSG; git add -A .; git commit -m \"${COMMIT_MSG}\"; git push;",
 		"git-tag": "echo \"Tag Version?: \"; read VERSION; git tag -a \"v${VERSION}\" -m \"Version ${VERSION}\";",
-		"git-push-tags": "git push --tags"
+		"git-push-tags": "git push --tags",
+		"npm-publish": "npm publish --access public"
 	},
 	"main": "index.js",
 	"repository": {
