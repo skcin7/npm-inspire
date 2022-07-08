@@ -53,7 +53,7 @@ const printQuote = () => {
     console.log("");
     return true;
 }
-printQuote();
+// printQuote();
 
 // export {
 //     printQuote

@@ -16,9 +16,9 @@
 		"Nick Morgan"
 	],
 	"scripts": {
-		"inspire": "node index.js",
+		"inspire": "./bin/inspire.js",
 		"test": "mocha test.js",
-		"git-publish": "git add -A .; git commit -m \"Publishing\"; git push;",
+		"git-publish": "echo \"Commit Message?: \"; read COMMIT_MSG; git add -A .; git commit -m \"${COMMIT_MSG}\"; git push;",
 		"git-tag": "echo \"Tag Version?: \"; read VERSION; git tag -a \"v${VERSION}\" -m \"Version ${VERSION}\";",
 		"git-push-tags": "git push --tags"
 	},
@@ -34,5 +34,11 @@
 	"devDependencies": {
 		"chai": "^4.3.6",
 		"mocha": "^10.0.0"
+	},
+	"bin": {
+		"inspire": "bin/inspire.js"
+	},
+	"engines": {
+		"node": ">=10"
 	}
 }
