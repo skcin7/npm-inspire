@@ -1,7 +1,7 @@
 {
 	"name": "@skcin7/inspire",
 	"description": "A simple package to print inspirational messages to the console.",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"config": {
 		"version_short": "1.0"
 	},
