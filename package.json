@@ -1,0 +1,39 @@
+{
+	"name": "inspire",
+	"description": "A simple package to print inspirational messages to the console.",
+	"version": "1.0.0",
+	"config": {
+		"version_short": "1.0"
+	},
+	"keywords": [
+		"inspirational-quotes",
+		"inspire",
+		"quotes"
+	],
+	"homepage": "https://github.com/skcin7/epic-web",
+	"author": "Nick Morgan",
+	"contributors": [
+		"Nick Morgan"
+	],
+	"scripts": {
+		"test": "test",
+		"publish": "echo 'Publishing...';"
+	},
+	"main": "src/index.js",
+	"module": "src/index.esm.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/skcin7/npm-inspire"
+	},
+	"bugs": {
+		"url": "https://github.com/skcin7/npm-inspire/issues"
+	},
+	"license": "MIT",
+	"devDependencies": {},
+	"jspm": {
+		"registry": "npm",
+		"main": "src/index.js",
+		"dependencies": {},
+		"peerDependencies": {}
+	}
+}
